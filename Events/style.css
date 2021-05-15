@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(206, 206, 187);
+    flex-wrap: wrap;
+    width: 500px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.sqr {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(76, 0, 255);
+    margin-bottom: 50px;
+}
+
+span {
+    font-size: 50px;
+    display: inline-block;
+    margin: 40px;
+    color: #fff;
+}

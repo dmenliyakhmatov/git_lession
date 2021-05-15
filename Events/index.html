@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="app">
+		<button class="btn">Click me, please!</button>
+    </div>
+    <!-- <a href="google.com">Link</a> -->
+    <div class="sqr"></div>
+    <input type="text" >
+</body>
+<script>
+  let btn = document.querySelector('button')
+  let clickHanlder = function(evt) {
+    // console.log(this.parentNode)
+    // alert('Добавили второе событие')
+    console.log(evt)
+  } 
+  btn.addEventListener('click', clickHanlder)
+</script>
+</html>
+
+
+
+

@@ -1,0 +1,9 @@
+.list-item {
+    background-color: thistle;
+    margin-bottom: 10px;
+}
+
+.app {
+    margin: 0 auto;
+    width: 500px;
+}

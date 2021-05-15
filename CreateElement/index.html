@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreateElement</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Создаем элементы</h1>
+        <p>Текст для наполнения страницы для демонстации функционала создания 
+            нового элемента или содержания <i>элемента</i>
+        </p>
+    </div>
+<!-- 
+        <template id="template-example">
+            <div class="sqr sqr-0">
+                <div>
+                    <span>0</span>
+                </div>
+                <div>
+                    <span>1</span>
+                </div>
+            </div>
+        </template> -->
+</body>
+<script >
+    let data = 'backend'
+let sqr = document.createElement('div')
+sqr.classList.add('sqr')
+console.log(sqr)
+// sqr.textContent = 11;
+let container = document.querySelector('.container')
+// console.log(container)
+container.append(sqr)
+sqr.outerHTML = `<span> 11 </span>`
+</script>
+</html>

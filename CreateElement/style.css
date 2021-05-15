@@ -1,0 +1,42 @@
+.first {
+    margin: auto;
+    border: 1px solid #000;
+    width: 700px;
+    height: 700px;
+}
+
+.second {
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+    border: 1px solid #000;
+}
+
+.thrid {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.btn {
+    width: 150px;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.sqr {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(76, 0, 255);
+    margin-bottom: 50px;
+}
+
+span {
+    font-size: 50px;
+    display: inline-block;
+    margin: 40px;
+    color: #fff;
+}
