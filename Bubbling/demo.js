@@ -19,8 +19,8 @@ for (let item of divs) {
   item.addEventListener('click', clickHandler);
 }
 
-// btn.addEventListener('click', clickHandler);
+btn.addEventListener('click', clickHandler);
 
-// for (let item of divs) {
-//     item.addEventListener('click', clickHandler);
-// }
+for (let item of divs) {
+  item.addEventListener('click', clickHandler);
+}
