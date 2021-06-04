@@ -19,3 +19,7 @@ const clickHanlder = (evt) => {
 };
 
 document.body.addEventListener('click', clickHanlder);
+
+function sayHi() {
+  return 'Hello';
+}
