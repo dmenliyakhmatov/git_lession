@@ -74,9 +74,9 @@
 //   }`;
 // };
 
-// const clearHandler = () => {
-//   sessionStorage.removeItem('count');
-// };
+const clearHandler = () => {
+  sessionStorage.removeItem('count');
+};
 
 // const addHandler = () => {
 //   // const oldCount = localStorage.getItem('count') || 0;
