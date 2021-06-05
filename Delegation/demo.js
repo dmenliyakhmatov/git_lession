@@ -1,6 +1,6 @@
 let list = document.querySelector('.list');
 const arr = [];
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 8; i++) {
   arr.push(i);
 }
 const listItem = document.createElement('li');
