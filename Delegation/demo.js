@@ -6,11 +6,11 @@ for (let i = 1; i <= 100; i++) {
 const listItem = document.createElement('li');
 listItem.classList.add('list-item');
 
-arr.forEach((item) => {
-  const newItem = listItem.cloneNode();
-  newItem.textContent = item;
-  list.append(newItem);
-});
+// arr.forEach((item) => {
+//   const newItem = listItem.cloneNode();
+//   newItem.textContent = item;
+//   list.append(newItem);
+// });
 
 const clickHanlder = (evt) => {
   if (evt.target.className === 'list-item') {
