@@ -126,10 +126,10 @@ const clearHandler = () => {
 //     document.querySelector('#app').append(el.name);
 //   });
 // }
-getPosts();
-document.querySelector('.add').addEventListener('click', function () {
-  getPosts();
-});
+// getPosts();
+// document.querySelector('.add').addEventListener('click', function () {
+//   getPosts();
+// });
 
 async function sendPost() {
   let response = await fetch('https://jsonplaceholder.typicode.com/posts', {
