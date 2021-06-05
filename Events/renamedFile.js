@@ -137,8 +137,6 @@ async function sendPost() {
     method: 'POST',
     body: JSON.stringify({ title: 'Title', sds: 'sdsd', third: 'third' }),
   });
-  let data = await response.json();
-  console.log(data);
 }
 
-// sendPost();
+sendPost();
