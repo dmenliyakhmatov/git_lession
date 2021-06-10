@@ -17,7 +17,7 @@ const divContainer = document.createElement('div');
 const list = document.createElement('ul');
 divContainer.append(list);
 
-// const arr = ['Первый', 'Второй', 'Третий'];
+const arr = ['Первый', 'Второй', 'Третий'];
 
 arr.forEach((item) => {
   const newItem = li.cloneNode(true);
@@ -25,4 +25,4 @@ arr.forEach((item) => {
   list.append(newItem);
 });
 
-// document.body.append(divContainer);
+document.body.append(divContainer);
